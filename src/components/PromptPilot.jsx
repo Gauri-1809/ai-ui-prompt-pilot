@@ -55,7 +55,9 @@ export default function PromptPilot() {
   };
 
   return (
-    <div className="prompt-container min-h-screen p-6 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 dark:bg-gradient-to-r dark:from-gray-900 dark:via-gray-700 dark:to-black">
+    <div className="prompt-container min-h-screen p-6 bg-gradient-to-r from-sky-300 via-rose-300 to-lime-300 dark:text-white dark:bg-gradient-to-r dark:from-gray-900 dark:via-gray-700 dark:to-black">
+      <h2 class="text-2xl font-bold text-white mb-4">Custom GPT Prompt Interface</h2>
+
       <div className="max-w-3xl mx-auto space-y-6">
         <div className="flex justify-between items-center">
           <ModelSelector model={model} setModel={setModel} models={models} loading={loadingModels} />
